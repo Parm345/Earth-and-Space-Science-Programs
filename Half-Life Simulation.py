@@ -5,7 +5,7 @@ remainingAtoms = 0
 
 numberOfAtoms = int(input("How many atoms are there: ")) # How many atoms in the simulation
 
-for x in range(numberOfAtoms): # Make a random for the amount of atoms the user said there are
+for x in range(numberOfAtoms): # Assign 0 or 1 for each atom the user said there are in the simulation
     decayed = random.randint(0,1) # the status of atom is here, it's either 0 or 1
 
     if decayed == 0: # if the status of decayed is 0, that means the atom decayed

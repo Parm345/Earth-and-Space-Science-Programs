@@ -3,7 +3,7 @@ import random
 atomsDecayed = 0
 remainingAtoms = 0
 
-numberOfAtoms = int(input("How many atoms are there: ")) # Basically how many trials
+numberOfAtoms = int(input("How many atoms are there: ")) # How many atoms in simulation
 
 for x in range(numberOfAtoms): # Make a random for the amount of atoms the user said there are
     decayed = random.randint(0,1) # the status of atom is here, range from 0 to 1
